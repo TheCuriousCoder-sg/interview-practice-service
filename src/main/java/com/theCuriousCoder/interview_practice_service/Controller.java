@@ -25,7 +25,7 @@ public class Controller {
         employees.add(employee);
     }
 
-    @PostMapping("/employee")
+    @DeleteMapping("/employee")
     public void deleteEmployee(@RequestParam Long id) {
         for(int i=0; i<employees.size(); i++) {
             if(employees.get(i).getId()==id) {
