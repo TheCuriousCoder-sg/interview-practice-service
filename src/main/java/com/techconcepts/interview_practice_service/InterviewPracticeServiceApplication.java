@@ -1,4 +1,4 @@
-package com.theCuriousCoder.interview_practice_service;
+package com.techconcepts.interview_practice_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
