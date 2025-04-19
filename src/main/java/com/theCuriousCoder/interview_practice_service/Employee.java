@@ -1,4 +1,4 @@
-package com.techconcepts.interview_practice_service;
+package com.theCuriousCoder.interview_practice_service;
 
 import org.springframework.stereotype.Component;
 
