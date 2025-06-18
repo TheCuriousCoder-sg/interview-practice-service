@@ -1,0 +1,28 @@
+server:
+  port: 8070
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8081
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8082
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 8083
+
