@@ -8,6 +8,10 @@ spring:
       on-profile: dev
 server:
   port: 8081
+feature:
+  2fa:
+    enabled: true
+    provider: sms
 
 ---
 spring:
@@ -16,6 +20,10 @@ spring:
       on-profile: test
 server:
   port: 8082
+feature:
+  2fa:
+    enabled: false
+    provider: sms
 
 ---
 
@@ -25,4 +33,9 @@ spring:
       on-profile: prod
 server:
   port: 8083
+
+feature:
+  2fa:
+    enabled: true
+    provider: email
 
